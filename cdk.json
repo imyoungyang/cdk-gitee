@@ -1,0 +1,9 @@
+{
+  "app": "node CodeBuild/create-gitee-codebuild.js",
+  "requireApproval": "never",
+  "context": {
+    "gitRepo": "helloWorld",
+    "httpsCloneUrl": "https://HOSTNAME/specialist-sa/helloWorld",
+    "deploy_account": AWS_ACCOUNT_ID
+  }
+}
